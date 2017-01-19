@@ -13,7 +13,7 @@ public:
 		age = 20;
 	}
 
-    // Person
+    // 1
 	Person operator+(Person& a)
 	{
 		Person person;
@@ -36,7 +36,7 @@ void main()
 	Person b;
 
 	// 연산자 오버로딩
-	Person c = a + b; // Person a, b
+	Person c = a + b; // 1연산자 오보로딩 호출
 
 	c.printAll();
 }
